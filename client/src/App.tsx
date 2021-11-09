@@ -4,6 +4,7 @@ import CreateUser from './Components/CreateUser';
 
 import './App.css';
 import ListOfUsers from './Components/ListOfUsers';
+import UpdatePassword from "./Components/UpdatePassword";
 
 const App = () => {
     const client = new ApolloClient({
@@ -15,6 +16,7 @@ const App = () => {
         <ApolloProvider client={client}>
             <CreateUser />
             <ListOfUsers />
+            <UpdatePassword />
         </ApolloProvider>
     );
 };

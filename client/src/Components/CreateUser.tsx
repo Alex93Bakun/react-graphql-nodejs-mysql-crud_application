@@ -20,7 +20,7 @@ const CreateUser = () => {
                 onChange={(e) => setUserName(e.target.value)}
             />
             <input
-                type="text"
+                type="password"
                 placeholder="password"
                 onChange={(e) => setPassword(e.target.value)}
             />
